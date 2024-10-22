@@ -30,11 +30,10 @@ DEBUG = os.environ.get('DEBUG')
 DEVELOPMENT = os.environ.get('DEVELOPMENT')
 
 ALLOWED_HOSTS = [
-    '8000-coder4916-thinkinspacea-y7q52sui0s6.ws-eu116.gitpod.io'
+    '8000-coder4916-thinkinspacea-88ztmk2b5kp.ws-eu116.gitpod.io'
 ]
 
 CSRF_TRUSTED_ORIGINS = ["https://8000-coder4916-thinkinspacea-y7q52sui0s6.ws-eu116.gitpod.io"]
-
 
 # Application definition
 
@@ -50,6 +49,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'about',
+    'testimonials',
 ]
 
 MIDDLEWARE = [
